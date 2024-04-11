@@ -1,0 +1,21 @@
+{
+  "name": "my-sample-action",
+  "version": "1.0.0",
+  "description": "Please don't use this...",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "is-even": "^1.0.0",
+    "tslib": "^2.6.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/is-even": "^1.0.2",
+    "husky": "^9.0.11"
+  }
+}

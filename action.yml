@@ -1,0 +1,12 @@
+name: Is Even
+description: Checks if a number is even
+inputs:
+  number:
+    description: A number
+    required: true
+outputs:
+  is_even:
+    description: true if the number is even, otherwise false
+runs:
+  using: "node20"
+  main: "dist/index.js"
